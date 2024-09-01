@@ -1,0 +1,42 @@
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
+scrambleState 40
+printState
