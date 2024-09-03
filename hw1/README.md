@@ -5,6 +5,19 @@
 
 ## Usage
 
+## Programming Questions
+
+### Exercise 3: State Representation.
+See the class "State" in main.py. A state is represented as a list of 9 integers (0-9). The index of a value determines the position of the tile whose number is given by the value. Indices correspond to positions of the eight puzzle
+
+| --- | --- | --- |
+| 0 | 1 | 2 |
+| --- | --- | --- |
+| 3 | 4 | 5 |
+| --- | --- | --- |
+| 6 | 7 | 8 |
+| --- | --- | --- |
+
 ## Written Questions
 
 ### Exercise 1: How you personally use AI. 
