@@ -23,8 +23,14 @@ The `EightPuzzle` class has a method named `ExecuteCommand` which takes a string
 
 Any command beginning with "#" or "//" is considered a comment and ignored by the execution engine.
 
-### Exercise 4: Reading Command Files.
+### Exercise 4: Reading Command Files (Scripting).
 The `EightPuzzle` class has a method named `CommandFile` which takes a filepath `path` as input. `path` should contain a sequence of commands separated by line breaks. `CommandFile` reads commands in order, sequentially calling `ExecuteCommand` each line.
+
+#### move
+#### setState
+#### scrambleState
+#### printState
+
 
 
 
