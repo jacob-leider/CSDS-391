@@ -8,7 +8,7 @@
 ## Programming Questions
 
 ### Exercise 3: State Representation.
-See the class "State" in main.py. A state is represented as a list of 9 integers (0-9). The index of a value determines the position of the tile whose number is given by the value. Indices correspond to positions of the eight puzzle as follows.
+See the class "State" in main.py. A state is represented as a list `values` of 9 integers (0-9). The index of a value determines the position of the tile whose number is given by the value. Indices correspond to positions of the eight puzzle as follows.
 
 | <!-- -->    | <!-- -->   | <!-- -->    |
 |---|---|---|
@@ -17,6 +17,10 @@ See the class "State" in main.py. A state is represented as a list of 9 integers
 | 6 | 7 | 8 |
 
 Hence, if `values[0] = 3`, the tile labeled `3` is positioned at the center of the puzzle.
+
+### Exercise 3: Command Interface.
+The `EightPuzzle` class has a method named `ExecuteCommand` which takes a string `command` as input. `ExecuteCommand` splits `command` into an opcode and an operand. The opcode (first word of the `command`) is mapped to a function which executes with the operand as input.
+
 
 
 ## Written Questions
