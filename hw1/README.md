@@ -53,17 +53,17 @@ five distinct ways in which the model exhibits aspects of intelligence and five 
 Grading will be on the distinctness of your queries and how well each is designed to test specific aspects of
 intelligence. Be sure to explain your reasoning behind your choices.
 
-Queries:
+#### Queries:
 
-1. Q "List the first three numbers between 1 and 2"
+Q "List the first three numbers between 1 and 2"
 
-   - A "The first three numbers between 1 and 2 are:
+A "The first three numbers between 1 and 2 are:
 
    1.1, 1.2, and 1.3.
 
    There are infinitely many numbers between 1 and 2, so you can select any set of three numbers between them."
-  
-3. 
+
+Q: 
 
 4. 
 
