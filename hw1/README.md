@@ -44,7 +44,10 @@ within other apps like speech recognition or route finding. For each example des
 how you use it, why you find it useful), their 2) strengths and 3) limitations, and 4) where you see these
 heading over the next several years.
 
-1. Generate comments for code: I'll occasionally tell chat GPT to rewrite my code descriptions/comments.  For ome of the more technical documentation I write, GPT improves readability and allows me to control the verbosity of the output (e.g. "Make it shorter"). Unfortunately, GPT often misunderstands my intention and fails to generate a useful description.  In complete honesty, I don't have much hope for any imporvement in the near future.  GPT does a great job on tasks it's already seen.  However, for new problems, I'll probably be better off doing my own technical writing.
+
+1. Generate comments for code: I'll occasionally tell chat GPT to rewrite my code descriptions/comments.  For ome of the more technical documentation I write, GPT improves readability and allows me to control the verbosity of the output (e.g. "Make it shorter"). Unfortunately, GPT often misunderstands my intention and fails to generate a useful description. I don't have much hope for any imporvement in the near future.  GPT does a great job on tasks it's already seen. However, for new problems, I'll probably be better off doing my own technical writing.
+
+2. Generate counter-arguments for argumentative writing. This is probably my favorite use for LLMs, as the output doesn't have to be that great, it just has to give me an idea of how I'm wrong. The main benifit is that GPT has probably processed any counterargument I'd come across in the real world. This means GPT usually covers any logical gaps I'd need to contend with in a rhetorical piece. In the same vein, GPT usually won't provide good responses with further prodding, which can be annoying if I'm not satisfied with the first response. I also encounter an issue where GPT will respond to an adjacent topic, not addressing my prompt directly. I don't see the former limitation getting resolved in the near future. I do, however, believe that responses will become more relevant as better models are developed.
 
 ### Exercise 2: Intelligence tests. 
 Perform your own Turing-like test on ChatGPT or similar large language
