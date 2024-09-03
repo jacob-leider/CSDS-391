@@ -69,6 +69,6 @@ Q:
 
 | Similarities | Differences |
 | --- | --- |
-|1. Tries to explain itself rather than just spitting out an answer.<br> 2. <br>3. <br>4. <br>5. |1. <br>2. <br>3. <br>4. <br>5. |
+|1. Tries to explain itself rather than just spitting out an answer. <br> 2. <br>3. <br>4. <br>5. |1. Makes an unlikely combination of beginner-mistakes and knowledgable references. Not many people would reference the infinite set of numbers between 1 and 2 while confidently stating that "the first the" are "1.1, 1.2 and 1.3".<br>2. <br>3. <br>4. <br>5. |
 
 
