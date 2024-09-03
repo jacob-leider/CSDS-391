@@ -21,6 +21,8 @@ Hence, if `values[0] = 3`, the tile labeled `3` is positioned at the center of t
 ### Exercise 3: Command Interface.
 The `EightPuzzle` class has a method named `ExecuteCommand` which takes a string `command` as input. `ExecuteCommand` splits `command` into an opcode and an operand. The opcode (first word of the `command`) is mapped to a function which executes with the operand as input.
 
+Any command beginning with "#" or "//" is considered a comment and ignored by the execution engine.
+
 ### Exercise 4: Reading Command Files.
 The `EightPuzzle` class has a method named `CommandFile` which takes a filepath `path` as input. `path` should contain a sequence of commands separated by line breaks. `CommandFile` reads commands in order, sequentially calling `ExecuteCommand` each line.
 
