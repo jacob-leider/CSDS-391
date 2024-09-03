@@ -25,16 +25,16 @@ Any command beginning with "#" or "//" is considered a comment and ignored by th
 
 ### Exercise 4: Reading Command Files (Scripting).
 The `EightPuzzle` class has a method named `CommandFile` which takes a filepath `path` as input. `path` should contain a sequence of commands separated by line breaks. `CommandFile` reads commands in order, sequentially calling `ExecuteCommand` each line.
-
+<span style="font-size:0.5em;">
 
 | opcode | operands | domain | explaination |
 |---|---|---|---|
 | move | `direction` | "up", "down", "left", right" | swap the non-tile with the tile below, above, right or left (respectively). |
-| setState | `values` | A space-separated list.<span style="font-size:0.5em;">Text goes here
- <br> $0 <=$ `values[i]` $<= 8$. <br> `len(values)` $= 9$. <br>`values[i] != values[j]` <br> ($0 <= i, j <= 8$)</span> | Set the state of the eight-puzzle. | scrambleState | `n` | An integer. `n >= 0`. | Perform `n` random moves on the eight-puzzle. |
+| setState | `values` | A space-separated list.Text goes here
+ <br> $0 <=$ `values[i]` $<= 8$. <br> `len(values)` $= 9$. <br>`values[i] != values[j]` <br> ($0 <= i, j <= 8$) | Set the state of the eight-puzzle. | scrambleState | `n` | An integer. `n >= 0`. | Perform `n` random moves on the eight-puzzle. |
 | printState | N/A | N/A | Print the current state of the eight-puzzle as a grid. |
+</span>
 
-https://github.com/jacob-leider/CSDS-391/blob/main/hw1/README.md
 ## Written Questions
 
 ### Exercise 1: How you personally use AI. 
