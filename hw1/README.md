@@ -55,14 +55,19 @@ intelligence. Be sure to explain your reasoning behind your choices.
 
 Queries:
 
-1. 
+1. Q "List the first three numbers between 1 and 2"
+   A "The first three numbers between 1 and 2 are:
 
-2. 
+   1.1, 1.2, and 1.3.
 
+   There are infinitely many numbers between 1 and 2, so you can select any set of three numbers between them."
+  
 3. 
+
+4. 
 
 | Similarities | Differences |
 | --- | --- |
-|1. <br>2. <br>3. <br>4. <br>5. |1. <br>2. <br>3. <br>4. <br>5. |
+|1. Tries to explain itself rather than just spitting out an answer.<br> 2. <br>3. <br>4. <br>5. |1. <br>2. <br>3. <br>4. <br>5. |
 
 
