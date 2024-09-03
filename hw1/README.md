@@ -26,6 +26,12 @@ Any command beginning with "#" or "//" is considered a comment and ignored by th
 ### Exercise 4: Reading Command Files (Scripting).
 The `EightPuzzle` class has a method named `CommandFile` which takes a filepath `path` as input. `path` should contain a sequence of commands separated by line breaks. `CommandFile` reads commands in order, sequentially calling `ExecuteCommand` each line.
 
+
+| opcode | operands | domain | explaination |
+|---|---|---|---|
+| move | "up", "down", "left", right" | swap the non-tile with the tile below, above, right or left (respectively). |
+
+
 #### move
 #### setState
 #### scrambleState
