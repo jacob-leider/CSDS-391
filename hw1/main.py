@@ -1,6 +1,7 @@
 # Problem 1.  Repres
 import pathlib
 import random
+import sys
 from os import PathLike
 
 
@@ -20,7 +21,6 @@ class EightPuzzle:
         """!
         @brief An eight-puzzle instance.
         """
-
         # Current state.
         self.current_state_ = State([0, 1, 2, 3, 4, 5, 6, 7, 8])
         self.non_tile_ = 0
@@ -38,11 +38,12 @@ class EightPuzzle:
             "setState": self.SetState,
             "printState": self.PrintState,
             "scrambleState": self.ScrambleState,
+            "print": print,
         }
 
         command = command.strip(" ")
         # Check for comment.
-        if command.startswith("//|#") | (command == ""):
+        if command.startswith("//") | (command == "") | command.startswith("#"):  #
             return True
 
         # Give 0-ary operators a fake operand.
@@ -60,7 +61,7 @@ class EightPuzzle:
         opcode_to_func_[opcode](operand)
         return True
 
-    def CommandFile(self, path: PathLike) -> bool:
+    def CommandFile(self, path) -> bool:
         """!
         @brief Sequentially execute the commands contained in "path".
         @param path: A filepath pointint to a list of valid commands.
@@ -100,16 +101,28 @@ class EightPuzzle:
 
     # Set current state.
     def SetState(self, operand: str) -> bool:
+        """!
+        @brief Set the state of the eight-puzzle.
+        @param A string of space-separated values representing tiles
+        left-to-right, bottom-to-top.  0 represents the non-tile.
+        """
         values = list(map(int, operand.split()))
         if not self.ValidateState(values):
             print("Error: Invalid State.")
             return False
 
+        for i in range(len(values)):
+            if values[i] == 0:
+                self.non_tile_ = i
+
         self.current_state_.values_ = values
         return True
 
-    # Move.
     def Move(self, direction, suppress_output=False) -> bool:
+        """!
+        @brief Perform a move on the eight-puzzle.
+        @param direction
+        """
         # Swap the tiles in positions p and q
         p = 1 * self.non_tile_  # Need to modify
         q = 0
@@ -149,8 +162,11 @@ class EightPuzzle:
         self.non_tile_ = q
         return True
 
-    # Randomize puzzle.
     def ScrambleState(self, n, suppress_output=False) -> bool:
+        """!
+        @brief Perform a random sequence of "n" moves.
+        @param n: Number of moves to perform.
+        """
         try:
             n = int(n)
         except:
@@ -164,8 +180,12 @@ class EightPuzzle:
 
         return True
 
-    # Print puzzle as a grid.
     def PrintState(self, operand: str):
+        """!
+        @brief Print a visual represntation of the eight-puzzle to the console.
+        @param operand: Never used.  Exists for consistency with other commands.
+        """
+
         def tile(val: int):
             if val != 0:
                 return str(val)
@@ -183,7 +203,7 @@ class EightPuzzle:
         print("┗━━━┷━━━┷━━━┛")
 
 
-# For testing purposes.
+# For testing purposes/entertainment. keys asdf control the non-tile.
 def Run(seed=0):
     movemap = {
         "w": "move down",
@@ -208,13 +228,10 @@ def Run(seed=0):
         cmd = input(">> ")
 
 
-def Test():
-    # Rng seed set to 0.
-    sample = EightPuzzle()
-
-    test_script = pathlib.Path("scripts/test.txt")
-    sample.CommandFile(test_script)
-
-
 if __name__ == "__main__":
-    Run(0)
+    if len(sys.argv) < 2:
+        exit()
+
+    # RNG Seed = 0
+    ep = EightPuzzle(0)
+    ep.CommandFile(sys.argv[1])
