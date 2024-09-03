@@ -1,10 +1,6 @@
 
 # CSDS 391 (Intro to AI) Homework 1
 
-## Requirements
-
-## Usage
-
 ## Programming Questions
 
 ### Exercise 3: State Representation.
