@@ -31,6 +31,15 @@ The `EightPuzzle` class has a method named `CommandFile` which takes a filepath 
 | print | any | N/A | Print the rest of the line. This is simply a call to python's `print` builtin. |
 </span>
 
+### Exercise 5: Test Script.
+
+Run test script:
+
+`python3 main.py ./scripts/text.txt`
+
+This tests all functions.
+
+
 ## Written Questions
 
 ### Exercise 1: How you personally use AI. 
