@@ -54,8 +54,11 @@ Grading will be on the distinctness of your queries and how well each is designe
 intelligence. Be sure to explain your reasoning behind your choices.
 
 Queries:
+
 1. 
+
 2. 
+
 3. 
 
 | Similarities | Differences |
