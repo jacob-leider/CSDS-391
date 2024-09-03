@@ -53,11 +53,13 @@ five distinct ways in which the model exhibits aspects of intelligence and five 
 Grading will be on the distinctness of your queries and how well each is designed to test specific aspects of
 intelligence. Be sure to explain your reasoning behind your choices.
 
+To the best of my understanding, LLMs are basically context-sensitive (in the informal sense) function approximators where the function in question maps a sequence of tokens (the last chunk of a conversation) to the next sequence of tokens (the expected response - also a sequence of tokens).  Thus, asking classic "Turing-test" questions about emotional experience or social scenarios won't be the most effective measure of "human intelligence".
+
 #### Queries:
 
-Q "List the first three numbers between 1 and 2"
+Q: "List the first three numbers between 1 and 2"
 
-A "The first three numbers between 1 and 2 are:
+A: "The first three numbers between 1 and 2 are:
 
    1.1, 1.2, and 1.3.
 
@@ -65,7 +67,9 @@ A "The first three numbers between 1 and 2 are:
 
 Q: 
 
-4. 
+A:
+
+
 
 | Similarities | Differences |
 | --- | --- |
