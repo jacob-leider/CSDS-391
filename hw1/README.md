@@ -56,6 +56,7 @@ intelligence. Be sure to explain your reasoning behind your choices.
 Queries:
 
 1. Q "List the first three numbers between 1 and 2"
+
    A "The first three numbers between 1 and 2 are:
 
    1.1, 1.2, and 1.3.
