@@ -30,7 +30,7 @@ The `EightPuzzle` class has a method named `CommandFile` which takes a filepath 
 | opcode | operands | domain | explaination |
 |---|---|---|---|
 | move | `direction` | "up", "down", "left", right" | swap the non-tile with the tile below, above, right or left (respectively). |
-| setState | `values` | A space-separated list. $0 <=$ `values[i]` $<= 8$ for $i = 1, ..., 8$. `len(values)` $= 9$. | Set the state of the eight-puzzle. |
+| setState | `values` | A space-separated list. $0 <=$ `values[i]` $<= 8$ for $i = 1, ..., 8$. `len(values)` $= 9$. `values[i] != `values[j]` for $0 <= i, j <= 8$ | Set the state of the eight-puzzle. |
 | move | string | "up", "down", "left", right" | swap the non-tile with the tile below, above, right or left (respectively). |
 
 #### move
