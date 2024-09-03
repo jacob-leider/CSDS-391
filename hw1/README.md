@@ -79,8 +79,6 @@ Analysis: $6 \times 2 + (20 + 1) \times 9 + 43$ is most certainly not equal to 2
 
 
 
-| Similarities | Differences |
-| --- | --- |
-|1. Tries to explain itself rather than just spitting out an answer. <br> 2. <br>3. <br>4. <br>5. |1. GPT sometimes makes an unlikely combination of beginner-mistakes and knowledgable references. Not many people would reference the infinite set of numbers between 1 and 2 while confidently stating that "the first the" are "1.1, 1.2 and 1.3".<br>2. Despite the previous observation, GPT also confidently gave an answer  <br>3. <br>4. <br>5. |
-
-
+| Q | A | Analysis |
+| --- | --- | --- |
+| "List the first three numbers between 1 and 2" | "The first three numbers between 1 and 2 are: <br> 1.1, 1.2, and 1.3. <br>There are infinitely many numbers between 1 and 2, so you can select any set of three numbers between them." | 
