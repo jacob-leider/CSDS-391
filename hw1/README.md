@@ -30,7 +30,7 @@ The `EightPuzzle` class has a method named `CommandFile` which takes a filepath 
 | opcode | operands | domain | explaination |
 |---|---|---|---|
 | move | `direction` | "up", "down", "left", right" | swap the non-tile with the tile below, above, right or left (respectively). |
-| setState | `values` | A space-separated list. <br> $0 <=$ `values[i]` $<= 8$. <br> `len(values)` $= 9$. <br> `values[i] != values[j]` | Set the state of the eight-puzzle. | scrambleState | `n` | An integer. `n >= 0`. | Perform `n` random moves on the eight-puzzle. |
+| setState | `values` | A space-separated list. <br> $0 <=$ `values[i]` $<= 8$. <br> `len(values)` $= 9$. <br>`values[i] != values[j]` <br> ($0 <= i, j <= 8$) | Set the state of the eight-puzzle. | scrambleState | `n` | An integer. `n >= 0`. | Perform `n` random moves on the eight-puzzle. |
 | printState | N/A | N/A | Print the current state of the eight-puzzle as a grid. |
 
 https://github.com/jacob-leider/CSDS-391/blob/main/hw1/README.md
