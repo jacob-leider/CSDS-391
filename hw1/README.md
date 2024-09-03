@@ -14,7 +14,7 @@ within other apps like speech recognition or route finding. For each example des
 how you use it, why you find it useful), their 2) strengths and 3) limitations, and 4) where you see these
 heading over the next several years.
 
-- Generate comments for code: I'll occasionally tell chat GPT to rewrite my code descriptions/comments. 
+1. Generate comments for code: I'll occasionally tell chat GPT to rewrite my code descriptions/comments.  For ome of the more technical documentation I write, GPT improves readability and allows me to control the verbosity of the output (e.g. "Make it shorter"). Unfortunately, GPT often misunderstands my intention and fails to generate a useful description.  In complete honesty, I don't have much hope for any imporvement in the near future.  GPT does a great job on tasks it's already seen.  However, for new problems, I'll probably be better off doing my own technical writing.
 
 ### Exercise 2: Intelligence tests. 
 Perform your own Turing-like test on ChatGPT or similar large language
