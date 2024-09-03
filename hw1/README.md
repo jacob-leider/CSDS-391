@@ -53,6 +53,11 @@ five distinct ways in which the model exhibits aspects of intelligence and five 
 Grading will be on the distinctness of your queries and how well each is designed to test specific aspects of
 intelligence. Be sure to explain your reasoning behind your choices.
 
+Queries:
+1. 
+2. 
+3. 
+
 | Similarities | Differences |
 | --- | --- |
 |1. <br>2. <br>3. <br>4. <br>5. |1. <br>2. <br>3. <br>4. <br>5. |
