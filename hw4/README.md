@@ -20,7 +20,7 @@ Note that is not possible to solve this in closed form, so you will have to writ
 Note that the branching expression can be simplified since the RHS is a geometric series
 
 $$
-N + 1 = \sum_{k = 0}^d (b^*)^k = \frac{1 - (b^*)^d}{1 - b^*}.
+N + 1 = \sum_{k = 0}^d (b^\*)^k = \frac{1 - (b^\*)^d}{1 - b^\*}.
 $$
 
 As we're solving for $b^*$ can be simplified to a degree-$d$ polynomial in $b*$:
