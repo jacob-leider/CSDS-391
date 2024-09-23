@@ -50,8 +50,6 @@ You have now implemented four different search algorithms for 15P. solving the 8
 
 | d | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| d | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6  | 89  | 160293 | 14 | 14 | 1.87 | 1.00 | 1.25 | 1.25 |
 | 8  | 371 | 122756 | 35 | 24 | 1.91 | 1.00 | 1.33 | 1.24 |
 | 10 | 754 | 167804 | 71 | 30 | 1.79 | 1.00 | 1.34 | 1.19 |
@@ -63,4 +61,6 @@ You have now implemented four different search algorithms for 15P. solving the 8
 | 22 | 105737 | 180716 | 12865 | 1338 | 1.62 | 1.00 | 1.46 | 1.30 |
 | 24 | 149124 | 93690 | 32305 | 2959 | 1.56 | 1.00 | 1.47 | 1.31 |
 | 26 | 173054 | 162039 | 49519 | 5104 | 1.53 | 1.00 | 1.45 | 1.31 |
+
+For clarity of the table, solution length is left out. However, in every case, A* achieved an optimal solution (same as BFS) for both heuristics, while DFS generated a solution of length between $10^4$ and $10^5$.
 
