@@ -47,3 +47,7 @@ The implementation of this function can be found in `heuristics.py`.
 ##### Exercise 5. Comparison of search costs.
 You have now implemented four different search algorithms for 15P. solving the 8-puzzle: DFS, BFS, and A* using either the h1 or h2 heuristic. Contrast the nodes generated, the length of solutions, and effective branching factor by generating a table similar to that in figure 3.26. Interpret your table and explain the differences among the different search algorithms.
 
+
+| d | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
