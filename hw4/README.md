@@ -6,6 +6,20 @@ more directly.
 
 ---
 
+
+Repeated state checking is implemented into the `search` module using an instance python's `set` class (a hash-set) named `visited`. For each state `S` encountered by any graph-search algorithm, `S` is not considered if present in `visited`. If `S` is not present in `visited`, `S` is added to the collection of states to be searched, and added to `visited`. The implementation for DFS is as follows (note that some details are omitted for simplicity's sake):
+
+```python
+for neighbor in neighbors:
+    if neighbor in visited:
+        continue
+    ...
+    S.put(neighbor)
+    visited.add(neighbor)
+```
+
+---
+
 ##### Exercise 4: Effective branching factor. 
 Write a function to calculate the effective branching factor as used in the table figure 3.26 of the textbook and described in section 3.6.1. The function should take the length of the solution, i.e. the depth d, and find a value b∗ that satisfies the expression for the total number of nodes generated (assuming this effective branching factor)
 
@@ -40,7 +54,6 @@ Another good upper bound is $\sqrt[d]{N + 1}$ (this one is pretty trivial). The 
 The implementation of this function can be found in `heuristics.py`.
 
 
-
 ---
 
 
@@ -48,7 +61,7 @@ The implementation of this function can be found in `heuristics.py`.
 You have now implemented four different search algorithms for 15P. solving the 8-puzzle: DFS, BFS, and A* using either the h1 or h2 heuristic. Contrast the nodes generated, the length of solutions, and effective branching factor by generating a table similar to that in figure 3.26. Interpret your table and explain the differences among the different search algorithms.
 
 
-| d | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
+| Actual Solution Distance | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6  | 89  | 160293 | 14 | 14 | 1.87 | 1.00 | 1.25 | 1.25 |
 | 8  | 371 | 122756 | 35 | 24 | 1.91 | 1.00 | 1.33 | 1.24 |
@@ -62,5 +75,9 @@ You have now implemented four different search algorithms for 15P. solving the 8
 | 24 | 149124 | 93690 | 32305 | 2959 | 1.56 | 1.00 | 1.47 | 1.31 |
 | 26 | 173054 | 162039 | 49519 | 5104 | 1.53 | 1.00 | 1.45 | 1.31 |
 
-For clarity of the table, solution length is left out. However, in every case, A* achieved an optimal solution (same as BFS) for both heuristics, while DFS generated a solution of length between $10^4$ and $10^5$.
+For clarity of the table, solution length is left out. However, in every case, A* achieved an optimal solution (same as BFS) for both heuristics, while DFS generated a solution of length between $10^4$ and $10^5$. While not exactly equal to one, DFS had a branching factor statistically indistinguishable from one.
+
+The main takeaway is that for both `h1` and `h2`, A* performs exceptionally well, generating far fewer nodes than BFS with effectively the same accuracy. `h2` outperforms `h1`, but `h1` actually ends to generate slightly shorter solution paths in a larger dataset, with the drawback of searching about 10x the number of states.
+
+It's also interesting that branching factor increases with actual solution distance for A*, but decreases after a certain point for BFS. By the definition of BFS, this is a reflection of the state space being a finite cyclic graph.
 
