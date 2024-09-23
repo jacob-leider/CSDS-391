@@ -29,7 +29,12 @@ $$
 (b^\*)^d - (N + 1)b^\* + N = 0
 $$
 
-For $N > d, b^\*$ is always the greatest real root (three distinct real roots, one negative, one equal to one and one greater than one). Thus, we can  simply find an upper bound and use it as an initial guess in newtons method. 
+We use the geometric series formula even though the expression is already a polynomial, since the number of nonzero coefficients in the new expression is constant, while $O(d)$ in the previous expression.
+
+For $N > d, b^\*$ is always the greatest real root (three distinct real roots, one negative, one equal to one and one greater than one). Thus, we can  simply find an upper bound and use it as an initial guess in newtons method. A good upper-bound is N/d, since (if $N > d$ )
+
+$$\sum_{k = 0}^d \left(\frac{N + 1}{d}\right)^k \geq d\left(\frac{N + 1}{d}\right) = N + 1.$$
+
 
 
 ---
