@@ -49,6 +49,7 @@ You have now implemented four different search algorithms for 15P. solving the 8
 
 
 | d | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
+| d | BFS | DFS | A*(h1) | A*(h2) | BFS | DFS | A*(h1) | A*(h2) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6  | 89  | 160293 | 14 | 14 | 1.87 | 1.00 | 1.25 | 1.25 |
 | 8  | 371 | 122756 | 35 | 24 | 1.91 | 1.00 | 1.33 | 1.24 |
