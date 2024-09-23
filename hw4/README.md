@@ -20,7 +20,7 @@ for neighbor in neighbors:
 
 ---
 
-##### Exercise 4: Effective branching factor. 
+### Exercise 4: Effective branching factor. 
 Write a function to calculate the effective branching factor as used in the table figure 3.26 of the textbook and described in section 3.6.1. The function should take the length of the solution, i.e. the depth d, and find a value b∗ that satisfies the expression for the total number of nodes generated (assuming this effective branching factor)
 
 $$
@@ -57,7 +57,7 @@ The implementation of this function can be found in `heuristics.py`.
 ---
 
 
-##### Exercise 5. Comparison of search costs.
+### Exercise 5. Comparison of search costs.
 You have now implemented four different search algorithms for 15P. solving the 8-puzzle: DFS, BFS, and A* using either the h1 or h2 heuristic. Contrast the nodes generated, the length of solutions, and effective branching factor by generating a table similar to that in figure 3.26. Interpret your table and explain the differences among the different search algorithms.
 
 
