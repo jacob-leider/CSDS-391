@@ -10,7 +10,7 @@ more directly.
 Write a function to calculate the effective branching factor as used in the table figure 3.26 of the textbook and described in section 3.6.1. The function should take the length of the solution, i.e. the depth d, and find a value b∗ that satisfies the expression for the total number of nodes generated (assuming this effective branching factor)
 
 $$
-N + 1 = 1 + b + (b)^2 + ... + (b)^d
+N + 1 = 1 + b + (b^*)^2 + ... + (b)^d
 $$
 
 Note that is not possible to solve this in closed form, so you will have to write an iterative algorithm. Show that your algorithm correctly estimates b∗ by applying it to trees with uniform branching and where the total number of nodes can be calucated analytically.
