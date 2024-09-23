@@ -29,7 +29,7 @@ $$
 (b^\*)^d - (N + 1)b^\* + N = 0
 $$
 
-
+For $N > d, b^\*$ is always the greatest real root (three distinct real roots, one negative, one equal to one and one greater than one). Thus, we can  simply find an upper bound and use it as an initial guess in newtons method. 
 
 
 ---
