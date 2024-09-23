@@ -35,6 +35,10 @@ For $N > d, b^\*$ is always the greatest real root (three distinct real roots, o
 
 $$\sum_{k = 0}^d \left(\frac{N + 1}{d}\right)^k \geq d\left(\frac{N + 1}{d}\right) = N + 1.$$
 
+Another good upper bound is $\sqrt[d]{N + 1}$ (this one is pretty trivial). The latter is better when $N >> d$ and the former is better when $N$ is close to $d.$ 
+
+The implementation of this function can be found in `heuristics.py`.
+
 
 
 ---
