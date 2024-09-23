@@ -25,6 +25,10 @@ $$
 
 As we're solving for $b^\*$ can be simplified to a degree- $d$ polynomial in $b^\*$:
 
+$$
+(b^\*)^d - (N + 1)b^\* + N = 0
+$$
+
 
 
 
