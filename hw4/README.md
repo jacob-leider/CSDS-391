@@ -1,6 +1,6 @@
 # CSDS 391 (Intro to AI), Homework 4
 
-##### Exercise 3. Repeated state checking for DFS. 
+### Exercise 3. Repeated state checking for DFS. 
 Add repeated state checking to your depth-first search 10P. algorithm. Do this before the working on the next exercise, so that we can compare different search algorithms
 more directly.
 
