@@ -23,7 +23,7 @@ $$
 N + 1 = \sum_{k = 0}^d (b^\*)^k = \frac{1 - (b^\*)^d}{1 - b^\*}.
 $$
 
-As we're solving for $b^\*$ can be simplified to a degree-$d$ polynomial in $b^\*$:
+As we're solving for $b^\*$ can be simplified to a degree- $d$ polynomial in $b^\*$:
 
 
 
